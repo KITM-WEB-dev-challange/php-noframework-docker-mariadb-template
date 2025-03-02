@@ -1,4 +1,4 @@
-# Node.js + Express + MongoDB Docker Template
+# PHP 8.1 + MariaDB Docker Template
 
 Šis šablonas skirtas konkursui, kuriame dalyviai gali forkuoti projektą ir sukurti savo aplikaciją.
 
@@ -26,28 +26,17 @@ docker-compose up --build
 ```
 Tai paleis tiek aplikaciją, tiek MongoDB konteineryje.
 
-Savo kompiuteryje naudokit:
-```sh
-npm start
-```
 
-### 5️⃣ API testavimas
+
+### 5️⃣ APP
 
 Aplikacija veiks adresu: `http://localhost:3000/`
-Galite patikrinti per naršyklę arba `curl`:
-```sh
-curl http://localhost:3000/
-```
-
-### 6️⃣ Plėskite savo aplikaciją
-Galite pridėti savo modelius, maršrutus ir funkcionalumą aplankuose `models/`, `routes/`, `config/`.
 
 ---
 
 ## 🛠 Naudotos technologijos
-- **Node.js** + **Express**
-- **MongoDB** + **Mongoose**
-- **Docker** + **Docker Compose**
+- **PHP** + **PDO**
+- **MariaDB** 
 
 
 Sėkmės konkurse! 🚀
